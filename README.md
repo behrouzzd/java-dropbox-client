@@ -8,10 +8,10 @@ For creating jar file with its dependancies run following maven command:
 
 The	application supports	following	commands:
 
-•  help	-	prints command list
-•  auth	-	authenticates	and	authorizes	the	access	to	Dropbox	account	
-•  info	-	retrieves	and	prints	user's	account	information	
-•  list	-	prints	files	and	folders	information	for	specified	path
+help	-	prints command list
+auth	-	authenticates	and	authorizes	the	access	to	Dropbox	account	
+info	-	retrieves	and	prints	user's	account	information	
+list	-	prints	files	and	folders	information	for	specified	path
 
 
 
@@ -20,16 +20,16 @@ The	application supports	following	commands:
 This	command	helps	to	authenticate	and	authorize	Dropbox	user	resulting	in	the	authorization	code.	
 
 Documentation:	
-•  Specification:	https://www.dropbox.com/developers/documentation/http/documentation	(subtitle	
+-Specification:	https://www.dropbox.com/developers/documentation/http/documentation	(subtitle	
 “Authorization”)	
-•  Example:	see	the	“No	Redirect	Example”	from	https://dropbox.github.io/dropbox-sdk-java/api-docs/v3.0.x/com/dropbox/core/DbxWebAuth.html	
+-Example:	see	the	“No	Redirect	Example”	from	https://dropbox.github.io/dropbox-sdk-java/api-docs/v3.0.x/com/dropbox/core/DbxWebAuth.html	
 
 Synatx:
 > java -jar dropbox-client.jar auth {appKey} {appSecret} 
 where	
-•  auth	-	the	command	name	(mandatory)	
-•  {appKey}	-	the	Dropbox	application	key	(mandatory)	
-•  {appSecret}	-	the	Dropbox	application	secret	code	(mandatory)	
+- auth	-	the	command	name	(mandatory)	
+- {appKey}	-	the	Dropbox	application	key	(mandatory)	
+- {appSecret}	-	the	Dropbox	application	secret	code	(mandatory)	
 
 Get	your	app	key	and	secret	from	the	Dropbox	developers	website:	
 https://www.dropbox.com/developers/apps/create	(use	options	“Dropbox	API”	and	“Full	Dropbox”)
