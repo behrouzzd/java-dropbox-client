@@ -14,6 +14,7 @@ The	application supports	following	commands:
 •  list	-	prints	files	and	folders	information	for	specified	path
 
 
+
 1. Command:	auth	
 
 This	command	helps	to	authenticate	and	authorize	Dropbox	user	resulting	in	the	authorization	code.	
